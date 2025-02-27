@@ -1,0 +1,118 @@
+{
+    "name": "InputActions",
+    "maps": [
+        {
+            "name": "RightTrigger",
+            "id": "777b3f4f-d14a-420d-b9c4-41d392d909ce",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "1695b663-f776-43f6-8503-4217e08c5b8e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ad225e04-0708-4d67-bab8-f6f079ebc6ee",
+                    "path": "<XRController>{RightHand}/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "LeftTrigger",
+            "id": "070349d1-9524-4832-b9e3-5d915d993ac8",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "009a3317-773b-45e6-98f9-6dcde4ab6a15",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1be023bb-8454-41f3-8e4e-da65e6e2cc0f",
+                    "path": "<XRController>{LeftHand}/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "RightGrab",
+            "id": "dc5125de-2df0-4a4f-bf45-d627ba54ad93",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "893546ff-5237-4c4e-8946-a0c2fcf3afec",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d6729792-d45e-476d-ad42-54d36830a1e2",
+                    "path": "<XRController>{RightHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "LeftGrab",
+            "id": "7befb325-88cd-4d14-aaf9-1af1b1e25e65",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "8778f430-a245-441c-8f39-92bde000a5f4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e3dac31a-efcc-40ae-807b-f86248e1f020",
+                    "path": "<XRController>{LeftHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
